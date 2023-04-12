@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// @ts-ignore
+import "./App.css";
+import { Button } from 'em-storybook-components';
+// const product : Product = {
+//   id: '1',
+//   title: 'Edward el mejor',
+//   img: "https://img.asmedia.epimg.net/resizer/JW4FdtBWvUm2aOrbWWp433ZyICA=/1952x1098/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/TBIYHZED4VNALBXST23EKIFQNA.jpg"
+// }
+
+// function App() {
+//   return (
+//     <div className="App-header">
+//       <ProductCard
+//         product={product}
+//         initialValues={{
+//           count: 4,
+//           maxCount: 10,
+//         }}
+//       >
+//         {({count, increaseBy}) => (
+//           <>
+//             <ProductImage />
+//             <ProductTitle title='Alegria' />
+//             <ProductButtons />
+//           </>
+//         )}
+//       </ProductCard>
+//     </div>
+//   );
+// }
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+      <div className="App-header">
+        <Button label={"dsfd"} backgroundColor="red" primary />
+      </div>
+    );
+  }
 
 export default App;

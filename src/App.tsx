@@ -32,7 +32,7 @@ import { Button } from 'em-storybook-components';
 function App() {
     return (
       <div className="App-header">
-        <Button label={"dsfd"} backgroundColor="red" primary />
+        <Button label={"test"} backgroundColor="red" primary />
       </div>
     );
   }
